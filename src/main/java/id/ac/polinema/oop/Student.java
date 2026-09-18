@@ -18,9 +18,13 @@ public class Student {
      * @param name      Student's full name
      * @param gpa       Grade Point Average (0.0 - 4.0)
      */
+    private String studentId;
+    private String name;
+    private double gpa;
+
     public Student(String studentId, String name, double gpa) {
-        // TODO: store parameters into fields
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.studentId = studentId;
+        this.name = name;
     }
 
     public String getStudentId() {

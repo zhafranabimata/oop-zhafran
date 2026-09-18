@@ -55,7 +55,7 @@ public class Student {
         if (gpa >= 3.0 && gpa < 3.5){
             return "Very Satisfactory";
         }  
-        if (gpa < 3.0) {
+        if (gpa <= 3.0) {
             return "Satisfactory";
         }
     }
